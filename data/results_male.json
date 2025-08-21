@@ -1,0 +1,124 @@
+[
+    {
+        "date": "2025-05-07",
+        "home_team": "Lube Civitanova",
+        "away_team": "Trentino",
+        "home_score": 2,
+        "away_score": 3,
+        "sets": [
+            {
+                "home": 25,
+                "away": 21
+            },
+            {
+                "home": 26,
+                "away": 28
+            },
+            {
+                "home": 17,
+                "away": 25
+            },
+            {
+                "home": 25,
+                "away": 20
+            },
+            {
+                "home": 9,
+                "away": 15
+            }
+        ],
+        "result": "V"
+    },
+    {
+        "date": "2025-05-04",
+        "home_team": "Trentino",
+        "away_team": "Lube Civitanova",
+        "home_score": 3,
+        "away_score": 0,
+        "sets": [
+            {
+                "home": 25,
+                "away": 22
+            },
+            {
+                "home": 25,
+                "away": 18
+            },
+            {
+                "home": 25,
+                "away": 18
+            }
+        ],
+        "result": "V"
+    },
+    {
+        "date": "2025-05-01",
+        "home_team": "Lube Civitanova",
+        "away_team": "Trentino",
+        "home_score": 3,
+        "away_score": 0,
+        "sets": [
+            {
+                "home": 25,
+                "away": 21
+            },
+            {
+                "home": 25,
+                "away": 21
+            },
+            {
+                "home": 25,
+                "away": 22
+            }
+        ],
+        "result": "P"
+    },
+    {
+        "date": "2025-04-27",
+        "home_team": "Trentino",
+        "away_team": "Lube Civitanova",
+        "home_score": 3,
+        "away_score": 0,
+        "sets": [
+            {
+                "home": 25,
+                "away": 20
+            },
+            {
+                "home": 25,
+                "away": 23
+            },
+            {
+                "home": 25,
+                "away": 21
+            }
+        ],
+        "result": "V"
+    },
+    {
+        "date": "2025-04-17",
+        "home_team": "Trentino",
+        "away_team": "Piacenza",
+        "home_score": 3,
+        "away_score": 1,
+        "sets": [
+            {
+                "home": 25,
+                "away": 21
+            },
+            {
+                "home": 22,
+                "away": 25
+            },
+            {
+                "home": 25,
+                "away": 19
+            },
+            {
+                "home": 25,
+                "away": 18
+            }
+        ],
+        "result": "V"
+    }
+]

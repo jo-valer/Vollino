@@ -1,0 +1,26 @@
+{
+    "buy_tickets": {
+        "male": {
+            "vip": 50,
+            "best": 35,
+            "grandstand": 30,
+            "curve": 14
+        },
+        "female": {
+            "vip": 25,
+            "best": 18,
+            "grandstand": 12,
+            "curve": 8
+        },
+        "multipliers": {
+            "reduced": 0.8,
+            "seasonal": 10
+        }
+    },
+    "buy_merchandise": {
+        "shirt": 80,
+        "scarf": 12.45,
+        "mug": 8.55,
+        "ball": 30
+    }
+}

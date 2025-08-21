@@ -1,0 +1,39 @@
+[
+    {
+        "user_id": 0,
+        "name": "John Doe",
+        "age": 30,
+        "location": "Trento, Italy",
+        "language": "en",
+        "new_user": false,
+        "buy_history": [
+            {
+                "intent": "buy_merchandise",
+                "slots": {
+                    "team": "male",
+                    "item": "scarf",
+                    "quantity": 1,
+                    "delivery_address": "Via Roma 123, Trento, Italy"
+                }
+            }
+        ]
+    },
+    {
+        "user_id": 1,
+        "name": "Maria Rossi",
+        "age": 28,
+        "location": "Rovereto, Italy",
+        "language": "it",
+        "new_user": true,
+        "buy_history": []
+    },
+    {
+        "user_id": 2,
+        "name": "Luca Bianchi",
+        "age": 35,
+        "location": "Verona, Italy",
+        "language": "en",
+        "new_user": false,
+        "buy_history": []
+    }
+]

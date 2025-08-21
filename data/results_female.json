@@ -1,0 +1,112 @@
+[
+    {
+        "date": "2025-03-29",
+        "home_team": "Akademia Sant'Anna Messina",
+        "away_team": "Itas Trentino",
+        "home_score": 3,
+        "away_score": 0,
+        "sets": [
+            {
+                "home": 25,
+                "away": 22
+            },
+            {
+                "home": 25,
+                "away": 18
+            },
+            {
+                "home": 25,
+                "away": 18
+            }
+        ],
+        "result": "P"
+    },
+    {
+        "date": "2025-03-26",
+        "home_team": "C.B.L. Costa Volpino",
+        "away_team": "Itas Trentino",
+        "home_score": 3,
+        "away_score": 2,
+        "sets": [
+            {
+                "home": 25,
+                "away": 22
+            },
+            {
+                "home": 25,
+                "away": 18
+            },
+            {
+                "home": 25,
+                "away": 18
+            }
+        ],
+        "result": "P"
+    },
+    {
+        "date": "2025-03-22",
+        "home_team": "Itas Trentino",
+        "away_team": "Omag-Mt San Giovanni In M.No",
+        "home_score": 1,
+        "away_score": 3,
+        "sets": [
+            {
+                "home": 22,
+                "away": 25
+            },
+            {
+                "home": 18,
+                "away": 25
+            },
+            {
+                "home": 18,
+                "away": 25
+            }
+        ],
+        "result": "P"
+    },
+    {
+        "date": "2025-03-16",
+        "home_team": "Itas Trentino",
+        "away_team": "Valsabbina Millenium Brescia",
+        "home_score": 3,
+        "away_score": 1,
+        "sets": [
+            {
+                "home": 25,
+                "away": 22
+            },
+            {
+                "home": 25,
+                "away": 18
+            },
+            {
+                "home": 25,
+                "away": 18
+            }
+        ],
+        "result": "P"
+    },
+    {
+        "date": "2025-03-12",
+        "home_team": "Cbf Balducci Hr Macerata",
+        "away_team": "Itas Trentino",
+        "home_score": 3,
+        "away_score": 1,
+        "sets": [
+            {
+                "home": 25,
+                "away": 22
+            },
+            {
+                "home": 25,
+                "away": 18
+            },
+            {
+                "home": 25,
+                "away": 18
+            }
+        ],
+        "result": "P"
+    }
+]
