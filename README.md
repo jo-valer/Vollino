@@ -50,7 +50,6 @@ pip install -r requirements.txt
 Create a `.env` file based on `.env.example` and configure your API keys:
 ```bash
 DEEPL_API_KEY=your_deepl_api_key_here
-GROQ_API_KEY=your_groq_api_key_here
 HF_ACCESS_TOKEN=your_hf_access_token_here
 ```
 
