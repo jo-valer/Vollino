@@ -19,7 +19,7 @@ Vollino is an intelligent conversational agent that assists Trentino Volley fans
 - **English** - Full translation support using DeepL API
 
 ### 🎨 User Interface Options
-- **GUI Mode** - Modern Tkinter-based graphical interface
+- **GUI Mode** - Graphical interface
 - **Terminal Mode** - Command-line interaction for development/testing
 
 
@@ -27,7 +27,7 @@ Vollino is an intelligent conversational agent that assists Trentino Volley fans
 
 ### Prerequisites
 - Python 3.13
-- Conda or virtual environment manager
+- Conda
 
 ### 1. Clone the Repository
 ```bash
@@ -90,7 +90,7 @@ Sbatch files for evaluation:
 # 🛠️ Project Structure
 ```
 Vollino/
-├── components/          # Core system components
+├── components/         # Core system components
 │   ├── nlu.py          # Natural Language Understanding
 │   ├── dst.py          # Dialogue State Tracking
 │   ├── dm.py           # Dialogue Management
@@ -100,7 +100,7 @@ Vollino/
 │   └── utils.py        # Shared utilities
 ├── data/               # Data files and management
 │   ├── data.py         # Data access functions
-│   └── *.json         # Static data files
+│   └── *.json          # Static data files
 ├── evaluation/         # Evaluation scripts and metrics
 ├── gui_interface.py    # GUI implementation
 ├── pipeline.py         # Main system orchestrator
