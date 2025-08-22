@@ -1,6 +1,6 @@
 # Vollino 🏐
 
-This is my HMD 2025 course project.
+This is my HMD 2025 course project.\
 Vollino is an intelligent conversational agent that assists Trentino Volley fans with team-related services including ticket purchases, merchandise orders, match schedules, news updates, and match results.
 
 
@@ -15,8 +15,8 @@ Vollino is an intelligent conversational agent that assists Trentino Volley fans
 - **Information Requests** - Ask questions about tickets or merchandise
 
 ### 🌍 Multilingual Support
-- **Italian** - Native language support with local data sources
-- **English** - Full translation support using DeepL API
+- **English** - Native language support
+- **Italian** - Full translation support using DeepL API
 
 ### 🎨 User Interface Options
 - **GUI Mode** - Graphical interface
