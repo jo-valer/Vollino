@@ -1,0 +1,2767 @@
+[
+    {
+        "user_input": "I want to buy 5 ticket for the girls' team match on 2025-11-04, in the V.I.P. sector.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": false,
+                "reduced_price": null,
+                "team": "female",
+                "number_of_tickets": 5,
+                "sector": "vip",
+                "date": "2025-11-04"
+            }
+        }
+    },
+    {
+        "user_input": "I want to buy four ticket for the ladies team match on 2025-12-09, in the best sector.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": false,
+                "reduced_price": null,
+                "team": "female",
+                "number_of_tickets": 4,
+                "sector": "best",
+                "date": "2025-12-09"
+            }
+        }
+    },
+    {
+        "user_input": "I want to buy 2 ticket for the women's team match on 2025-11-19, in the curve sector.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": false,
+                "reduced_price": null,
+                "team": "female",
+                "number_of_tickets": 2,
+                "sector": "curve",
+                "date": "2025-11-19"
+            }
+        }
+    },
+    {
+        "user_input": "I want to buy three ticket for the female team match on 2025-11-15, in the vip sector.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": false,
+                "reduced_price": null,
+                "team": "female",
+                "number_of_tickets": 3,
+                "sector": "vip",
+                "date": "2025-11-15"
+            }
+        }
+    },
+    {
+        "user_input": "I want to buy one ticket for the male team match on 2025-12-27, in the vip sector.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": false,
+                "reduced_price": null,
+                "team": "male",
+                "number_of_tickets": 1,
+                "sector": "vip",
+                "date": "2025-12-27"
+            }
+        }
+    },
+    {
+        "user_input": "Book four tickets in best sector for the girls' team on 2025-10-10.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": false,
+                "reduced_price": null,
+                "team": "female",
+                "number_of_tickets": 4,
+                "sector": "best",
+                "date": "2025-10-10"
+            }
+        }
+    },
+    {
+        "user_input": "Book 4 tickets in vip sector for the men's team on 2025-08-25.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": false,
+                "reduced_price": null,
+                "team": "male",
+                "number_of_tickets": 4,
+                "sector": "vip",
+                "date": "2025-08-25"
+            }
+        }
+    },
+    {
+        "user_input": "Book 5 tickets in VIP sector for the women's team on 2025-11-20.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": false,
+                "reduced_price": null,
+                "team": "female",
+                "number_of_tickets": 5,
+                "sector": "vip",
+                "date": "2025-11-20"
+            }
+        }
+    },
+    {
+        "user_input": "Book 2 tickets in curva sector for the men team on 2025-11-09.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": false,
+                "reduced_price": null,
+                "team": "male",
+                "number_of_tickets": 2,
+                "sector": "curve",
+                "date": "2025-11-09"
+            }
+        }
+    },
+    {
+        "user_input": "Book 1 tickets in curva sector for the men's team on 2025-10-31.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": false,
+                "reduced_price": null,
+                "team": "male",
+                "number_of_tickets": 1,
+                "sector": "curve",
+                "date": "2025-10-31"
+            }
+        }
+    },
+    {
+        "user_input": "Get me a season ticket for the ladies team in the stand section.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": true,
+                "reduced_price": null,
+                "team": "female",
+                "number_of_tickets": 1,
+                "sector": "grandstand",
+                "date": "season"
+            }
+        }
+    },
+    {
+        "user_input": "Get me a season ticket for the female team in the grandstand section.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": true,
+                "reduced_price": null,
+                "team": "female",
+                "number_of_tickets": 1,
+                "sector": "grandstand",
+                "date": "season"
+            }
+        }
+    },
+    {
+        "user_input": "Get me a season ticket for the ladies team in the curva section.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": true,
+                "reduced_price": null,
+                "team": "female",
+                "number_of_tickets": 1,
+                "sector": "curve",
+                "date": "season"
+            }
+        }
+    },
+    {
+        "user_input": "Get me a season ticket for the ladies team in the best section.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": true,
+                "reduced_price": null,
+                "team": "female",
+                "number_of_tickets": 1,
+                "sector": "best",
+                "date": "season"
+            }
+        }
+    },
+    {
+        "user_input": "Get me a season ticket for the men team in the VIP section.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": true,
+                "reduced_price": null,
+                "team": "male",
+                "number_of_tickets": 1,
+                "sector": "vip",
+                "date": "season"
+            }
+        }
+    },
+    {
+        "user_input": "Can I get two ticket with reduced price for the men team on 2025-10-01?",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": false,
+                "reduced_price": true,
+                "team": "male",
+                "number_of_tickets": 2,
+                "date": "2025-10-01"
+            }
+        }
+    },
+    {
+        "user_input": "Can I get two ticket with reduced price for the women's team on 2025-10-23?",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": false,
+                "reduced_price": true,
+                "team": "female",
+                "number_of_tickets": 2,
+                "date": "2025-10-23"
+            }
+        }
+    },
+    {
+        "user_input": "Can I get 3 ticket with reduced price for the women's team on 2026-01-24?",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": false,
+                "reduced_price": true,
+                "team": "female",
+                "number_of_tickets": 3,
+                "date": "2026-01-24"
+            }
+        }
+    },
+    {
+        "user_input": "Can I get 2 ticket with reduced price for the men team on 2025-11-04?",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": false,
+                "reduced_price": true,
+                "team": "male",
+                "number_of_tickets": 2,
+                "date": "2025-11-04"
+            }
+        }
+    },
+    {
+        "user_input": "Can I get three ticket with reduced price for the men team on 2025-11-04?",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": false,
+                "reduced_price": true,
+                "team": "male",
+                "number_of_tickets": 3,
+                "date": "2025-11-04"
+            }
+        }
+    },
+    {
+        "user_input": "Please reserve five tickets, curve sector, mens team, without reduced price.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": null,
+                "reduced_price": false,
+                "team": "male",
+                "number_of_tickets": 5,
+                "sector": "curve"
+            }
+        }
+    },
+    {
+        "user_input": "Please reserve two tickets, VIP sector, mens team, not reduced price.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": null,
+                "reduced_price": false,
+                "team": "male",
+                "number_of_tickets": 2,
+                "sector": "vip"
+            }
+        }
+    },
+    {
+        "user_input": "Please reserve one tickets, best sector, men's team, not reduced price.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": null,
+                "reduced_price": false,
+                "team": "male",
+                "number_of_tickets": 1,
+                "sector": "best"
+            }
+        }
+    },
+    {
+        "user_input": "Please reserve 5 tickets, best sector, men's team, yes reduced price.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": null,
+                "reduced_price": true,
+                "team": "male",
+                "number_of_tickets": 5,
+                "sector": "best"
+            }
+        }
+    },
+    {
+        "user_input": "Please reserve five tickets, curva sector, girls' team, without reduced price.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": null,
+                "reduced_price": false,
+                "team": "female",
+                "number_of_tickets": 5,
+                "sector": "curve"
+            }
+        }
+    },
+    {
+        "user_input": "I'd like a season ticket for the men's team, best sector.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": true,
+                "reduced_price": null,
+                "team": "male",
+                "number_of_tickets": 1,
+                "sector": "best",
+                "date": "season"
+            }
+        }
+    },
+    {
+        "user_input": "I'd like a season ticket for the women's team, VIP sector.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": true,
+                "reduced_price": null,
+                "team": "female",
+                "number_of_tickets": 1,
+                "sector": "vip",
+                "date": "season"
+            }
+        }
+    },
+    {
+        "user_input": "I'd like a season ticket for the male team, best sector.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": true,
+                "reduced_price": null,
+                "team": "male",
+                "number_of_tickets": 1,
+                "sector": "best",
+                "date": "season"
+            }
+        }
+    },
+    {
+        "user_input": "I'd like a season ticket for the female team, curva sector.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": true,
+                "reduced_price": null,
+                "team": "female",
+                "number_of_tickets": 1,
+                "sector": "curve",
+                "date": "season"
+            }
+        }
+    },
+    {
+        "user_input": "I'd like a season ticket for the girls' team, vip sector.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": true,
+                "reduced_price": null,
+                "team": "female",
+                "number_of_tickets": 1,
+                "sector": "vip",
+                "date": "season"
+            }
+        }
+    },
+    {
+        "user_input": "Buy 5 VIP ticket for the men match on 2025-09-07, with reduced.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": false,
+                "reduced_price": true,
+                "team": "male",
+                "number_of_tickets": 5,
+                "date": "2025-09-07"
+            }
+        }
+    },
+    {
+        "user_input": "Buy five VIP ticket for the men's match on 2025-09-19, yes reduced.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": false,
+                "reduced_price": true,
+                "team": "male",
+                "number_of_tickets": 5,
+                "date": "2025-09-19"
+            }
+        }
+    },
+    {
+        "user_input": "Buy 1 VIP ticket for the men match on 2026-02-04, with reduced.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": false,
+                "reduced_price": true,
+                "team": "male",
+                "number_of_tickets": 1,
+                "date": "2026-02-04"
+            }
+        }
+    },
+    {
+        "user_input": "Buy one VIP ticket for the mens match on 2026-02-11, with reduced.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": false,
+                "reduced_price": true,
+                "team": "male",
+                "number_of_tickets": 1,
+                "date": "2026-02-11"
+            }
+        }
+    },
+    {
+        "user_input": "Buy three VIP ticket for the ladies match on 2026-02-09, yes reduced.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": false,
+                "reduced_price": true,
+                "team": "female",
+                "number_of_tickets": 3,
+                "date": "2026-02-09"
+            }
+        }
+    },
+    {
+        "user_input": "Get tickets for ladies team on 2025-12-12.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": false,
+                "reduced_price": null,
+                "team": "female",
+                "date": "2025-12-12"
+            }
+        }
+    },
+    {
+        "user_input": "Get tickets for women's team on 2026-01-26.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": false,
+                "reduced_price": null,
+                "team": "female",
+                "date": "2026-01-26"
+            }
+        }
+    },
+    {
+        "user_input": "Get tickets for female team on 2025-10-27.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": false,
+                "reduced_price": null,
+                "team": "female",
+                "date": "2025-10-27"
+            }
+        }
+    },
+    {
+        "user_input": "Get tickets for men team on 2025-09-14.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": false,
+                "reduced_price": null,
+                "team": "male",
+                "date": "2025-09-14"
+            }
+        }
+    },
+    {
+        "user_input": "Get tickets for men's team on 2025-11-21.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": false,
+                "reduced_price": null,
+                "team": "male",
+                "date": "2025-11-21"
+            }
+        }
+    },
+    {
+        "user_input": "I want to book two stand ticket for women's team, yes reduced ticket.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": null,
+                "reduced_price": true,
+                "team": "female",
+                "number_of_tickets": 2,
+                "sector": "grandstand"
+            }
+        }
+    },
+    {
+        "user_input": "I want to book 2 curva ticket for men team, without reduced ticket.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": null,
+                "reduced_price": false,
+                "team": "male",
+                "number_of_tickets": 2,
+                "sector": "curve"
+            }
+        }
+    },
+    {
+        "user_input": "I want to book 5 best ticket for men's team, with reduced ticket.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": null,
+                "reduced_price": true,
+                "team": "male",
+                "number_of_tickets": 5,
+                "sector": "best"
+            }
+        }
+    },
+    {
+        "user_input": "I want to book one grandstand ticket for women's team, no reduced ticket.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": null,
+                "reduced_price": false,
+                "team": "female",
+                "number_of_tickets": 1,
+                "sector": "grandstand"
+            }
+        }
+    },
+    {
+        "user_input": "I want to book five stand ticket for ladies team, yes reduced ticket.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": null,
+                "reduced_price": true,
+                "team": "female",
+                "number_of_tickets": 5,
+                "sector": "grandstand"
+            }
+        }
+    },
+    {
+        "user_input": "Give me a season ticket, men team, best sector.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": true,
+                "reduced_price": null,
+                "team": "male",
+                "number_of_tickets": 1,
+                "sector": "best",
+                "date": "season"
+            }
+        }
+    },
+    {
+        "user_input": "Give me a season ticket, ladies team, vip sector.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": true,
+                "reduced_price": null,
+                "team": "female",
+                "number_of_tickets": 1,
+                "sector": "vip",
+                "date": "season"
+            }
+        }
+    },
+    {
+        "user_input": "Give me a season ticket, ladies team, curva sector.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": true,
+                "reduced_price": null,
+                "team": "female",
+                "number_of_tickets": 1,
+                "sector": "curve",
+                "date": "season"
+            }
+        }
+    },
+    {
+        "user_input": "Give me a season ticket, girls' team, stand sector.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": true,
+                "reduced_price": null,
+                "team": "female",
+                "number_of_tickets": 1,
+                "sector": "grandstand",
+                "date": "season"
+            }
+        }
+    },
+    {
+        "user_input": "Give me a season ticket, female team, curve sector.",
+        "ground_truth": {
+            "intent": "buy_tickets",
+            "slots": {
+                "season_ticket": true,
+                "reduced_price": null,
+                "team": "female",
+                "number_of_tickets": 1,
+                "sector": "curve",
+                "date": "season"
+            }
+        }
+    },
+    {
+        "user_input": "I want to buy two scarf for the men team.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "scarf",
+                "size": "unique",
+                "quantity": 2
+            }
+        }
+    },
+    {
+        "user_input": "I want to buy 2 medium shirt for the men team.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "shirt",
+                "size": "M",
+                "quantity": 2
+            }
+        }
+    },
+    {
+        "user_input": "I want to buy 4 cap for the women's team.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "female",
+                "item": "hat",
+                "size": "unique",
+                "quantity": 4
+            }
+        }
+    },
+    {
+        "user_input": "I want to buy 3 hat for the women's team.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "female",
+                "item": "hat",
+                "size": "unique",
+                "quantity": 3
+            }
+        }
+    },
+    {
+        "user_input": "I want to buy two scarf for the men's team.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "scarf",
+                "size": "unique",
+                "quantity": 2
+            }
+        }
+    },
+    {
+        "user_input": "Order 5 ball(s) for ladies team to Corso Vittorio Emanuele 45, Torino.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "female",
+                "item": "ball",
+                "quantity": 5,
+                "delivery_address": "Corso Vittorio Emanuele 45, Torino"
+            }
+        }
+    },
+    {
+        "user_input": "Order 5 hat(s) for female team to Via Garibaldi 22, Napoli.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "female",
+                "item": "hat",
+                "quantity": 5,
+                "delivery_address": "Via Garibaldi 22, Napoli"
+            }
+        }
+    },
+    {
+        "user_input": "Order five jersey(s) for women's team to Corso Vittorio Emanuele 45, Torino.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "female",
+                "item": "shirt",
+                "quantity": 5,
+                "delivery_address": "Corso Vittorio Emanuele 45, Torino"
+            }
+        }
+    },
+    {
+        "user_input": "Order one scarf(s) for female team to Viale della Repubblica 77, Bologna.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "female",
+                "item": "scarf",
+                "quantity": 1,
+                "delivery_address": "Viale della Repubblica 77, Bologna"
+            }
+        }
+    },
+    {
+        "user_input": "Order 3 cap(s) for women's team to Corso Vittorio Emanuele 45, Torino.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "female",
+                "item": "hat",
+                "quantity": 3,
+                "delivery_address": "Corso Vittorio Emanuele 45, Torino"
+            }
+        }
+    },
+    {
+        "user_input": "Can I get 1 small jerseys for men team delivered to Via Garibaldi 22, Napoli?",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "shirt",
+                "size": "S",
+                "quantity": 1,
+                "delivery_address": "Via Garibaldi 22, Napoli"
+            }
+        }
+    },
+    {
+        "user_input": "Can I get 2 S shirts for men's team delivered to Via Garibaldi 22, Napoli?",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "shirt",
+                "size": "S",
+                "quantity": 2,
+                "delivery_address": "Via Garibaldi 22, Napoli"
+            }
+        }
+    },
+    {
+        "user_input": "Can I get 3 caps for men's team delivered to Corso Vittorio Emanuele 45, Torino?",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "hat",
+                "size": "unique",
+                "quantity": 3,
+                "delivery_address": "Corso Vittorio Emanuele 45, Torino"
+            }
+        }
+    },
+    {
+        "user_input": "Can I get 4 volley balls for mens team delivered to Via Roma 12, Milano?",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "ball",
+                "size": "unique",
+                "quantity": 4,
+                "delivery_address": "Via Roma 12, Milano"
+            }
+        }
+    },
+    {
+        "user_input": "Can I get one balls for women's team delivered to Piazza Duomo 1, Firenze?",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "female",
+                "item": "ball",
+                "size": "unique",
+                "quantity": 1,
+                "delivery_address": "Piazza Duomo 1, Firenze"
+            }
+        }
+    },
+    {
+        "user_input": "Please send me 5 jersey, size small, from the women's team.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "female",
+                "item": "shirt",
+                "size": "S",
+                "quantity": 5
+            }
+        }
+    },
+    {
+        "user_input": "Please send me 3 scarf, from the girls' team.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "female",
+                "item": "scarf",
+                "size": "unique",
+                "quantity": 3
+            }
+        }
+    },
+    {
+        "user_input": "Please send me 4 cap, from the women's team.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "female",
+                "item": "hat",
+                "size": "unique",
+                "quantity": 4
+            }
+        }
+    },
+    {
+        "user_input": "Please send me 2 scarf, from the girls' team.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "female",
+                "item": "scarf",
+                "size": "unique",
+                "quantity": 2
+            }
+        }
+    },
+    {
+        "user_input": "Please send me three hat, from the men's team.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "hat",
+                "size": "unique",
+                "quantity": 3
+            }
+        }
+    },
+    {
+        "user_input": "I'd like 4 unique size scarfs for the men team.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "scarf",
+                "quantity": 4
+            }
+        }
+    },
+    {
+        "user_input": "I'd like 1 unique size hats for the women's team.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "female",
+                "item": "hat",
+                "quantity": 1
+            }
+        }
+    },
+    {
+        "user_input": "I'd like four unique size jerseys for the girls' team.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "female",
+                "item": "shirt",
+                "quantity": 4
+            }
+        }
+    },
+    {
+        "user_input": "I'd like 2 unique size jerseys for the men team.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "shirt",
+                "quantity": 2
+            }
+        }
+    },
+    {
+        "user_input": "I'd like four unique size shirts for the male team.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "shirt",
+                "quantity": 4
+            }
+        }
+    },
+    {
+        "user_input": "Order 2 size small jersey for the male team, delivered to Via Garibaldi 22, Napoli.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "shirt",
+                "size": "S",
+                "quantity": 2,
+                "delivery_address": "Via Garibaldi 22, Napoli"
+            }
+        }
+    },
+    {
+        "user_input": "Order one size cap for the women's team, delivered to Corso Vittorio Emanuele 45, Torino.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "female",
+                "item": "hat",
+                "size": "unique",
+                "quantity": 1,
+                "delivery_address": "Corso Vittorio Emanuele 45, Torino"
+            }
+        }
+    },
+    {
+        "user_input": "Order 3 size ball for the men's team, delivered to Corso Vittorio Emanuele 45, Torino.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "ball",
+                "size": "unique",
+                "quantity": 3,
+                "delivery_address": "Corso Vittorio Emanuele 45, Torino"
+            }
+        }
+    },
+    {
+        "user_input": "Order 1 size volley ball for the men's team, delivered to Corso Vittorio Emanuele 45, Torino.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "ball",
+                "size": "unique",
+                "quantity": 1,
+                "delivery_address": "Corso Vittorio Emanuele 45, Torino"
+            }
+        }
+    },
+    {
+        "user_input": "Order five size scarf for the men team, delivered to Piazza Duomo 1, Firenze.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "scarf",
+                "size": "unique",
+                "quantity": 5,
+                "delivery_address": "Piazza Duomo 1, Firenze"
+            }
+        }
+    },
+    {
+        "user_input": "Buy one scarfs of size for women's team.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "female",
+                "item": "scarf",
+                "size": "unique",
+                "quantity": 1
+            }
+        }
+    },
+    {
+        "user_input": "Buy five scarfs of size for girls' team.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "female",
+                "item": "scarf",
+                "size": "unique",
+                "quantity": 5
+            }
+        }
+    },
+    {
+        "user_input": "Buy four shirts of large size for male team.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "shirt",
+                "size": "L",
+                "quantity": 4
+            }
+        }
+    },
+    {
+        "user_input": "Buy 3 scarfs of size for women's team.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "female",
+                "item": "scarf",
+                "size": "unique",
+                "quantity": 3
+            }
+        }
+    },
+    {
+        "user_input": "Buy five hats of size for men team.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "hat",
+                "size": "unique",
+                "quantity": 5
+            }
+        }
+    },
+    {
+        "user_input": "Get me 1 shirt for the girls' team shipped to Piazza Duomo 1, Firenze.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "female",
+                "item": "shirt",
+                "quantity": 1,
+                "delivery_address": "Piazza Duomo 1, Firenze"
+            }
+        }
+    },
+    {
+        "user_input": "Get me 2 scarf for the girls' team shipped to Piazza Duomo 1, Firenze.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "female",
+                "item": "scarf",
+                "quantity": 2,
+                "delivery_address": "Piazza Duomo 1, Firenze"
+            }
+        }
+    },
+    {
+        "user_input": "Get me 3 cap for the girls' team shipped to Piazza Duomo 1, Firenze.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "female",
+                "item": "hat",
+                "quantity": 3,
+                "delivery_address": "Piazza Duomo 1, Firenze"
+            }
+        }
+    },
+    {
+        "user_input": "Get me 4 volleyball ball for the women's team shipped to Via Garibaldi 22, Napoli.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "female",
+                "item": "ball",
+                "quantity": 4,
+                "delivery_address": "Via Garibaldi 22, Napoli"
+            }
+        }
+    },
+    {
+        "user_input": "Get me 4 volley ball for the mens team shipped to Viale della Repubblica 77, Bologna.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "ball",
+                "quantity": 4,
+                "delivery_address": "Viale della Repubblica 77, Bologna"
+            }
+        }
+    },
+    {
+        "user_input": "Please deliver five scarf(s) of the men's team to Piazza Duomo 1, Firenze.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "scarf",
+                "quantity": 5,
+                "delivery_address": "Piazza Duomo 1, Firenze"
+            }
+        }
+    },
+    {
+        "user_input": "Please deliver two scarf(s) of the men team to Via Garibaldi 22, Napoli.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "scarf",
+                "quantity": 2,
+                "delivery_address": "Via Garibaldi 22, Napoli"
+            }
+        }
+    },
+    {
+        "user_input": "Please deliver three scarf(s) of the men's team to Corso Vittorio Emanuele 45, Torino.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "scarf",
+                "quantity": 3,
+                "delivery_address": "Corso Vittorio Emanuele 45, Torino"
+            }
+        }
+    },
+    {
+        "user_input": "Please deliver 4 scarf(s) of the men team to Corso Vittorio Emanuele 45, Torino.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "scarf",
+                "quantity": 4,
+                "delivery_address": "Corso Vittorio Emanuele 45, Torino"
+            }
+        }
+    },
+    {
+        "user_input": "Please deliver one volley ball(s) of the female team to Corso Vittorio Emanuele 45, Torino.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "female",
+                "item": "ball",
+                "quantity": 1,
+                "delivery_address": "Corso Vittorio Emanuele 45, Torino"
+            }
+        }
+    },
+    {
+        "user_input": "I want two scarf for men, size one size.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "scarf",
+                "size": "unique",
+                "quantity": 2
+            }
+        }
+    },
+    {
+        "user_input": "I want 3 scarf for ladies, size unique.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "female",
+                "item": "scarf",
+                "size": "unique",
+                "quantity": 3
+            }
+        }
+    },
+    {
+        "user_input": "I want 2 ball for male, size one size.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "ball",
+                "size": "unique",
+                "quantity": 2
+            }
+        }
+    },
+    {
+        "user_input": "I want two cap for girls', size unique.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "female",
+                "item": "hat",
+                "size": "unique",
+                "quantity": 2
+            }
+        }
+    },
+    {
+        "user_input": "I want four scarf for girls', size one size.",
+        "ground_truth": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "female",
+                "item": "scarf",
+                "size": "unique",
+                "quantity": 4
+            }
+        }
+    },
+    {
+        "user_input": "When does the women's team play next?",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "When does the female team play next?",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "When does the men team play next?",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "When does the men's team play next?",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "When does the women's team play next?",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Show me the match schedule for the young team team.",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "Show me the match schedule for the women's team.",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Show me the match schedule for the junior team.",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "Show me the match schedule for the men's team.",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Show me the match schedule for the ladies team.",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "List upcoming games for the girls' team.",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "List upcoming games for the ladies team.",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "List upcoming games for the women's team.",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "List upcoming games for the young team team.",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "List upcoming games for the female team.",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "What is the next match date for girls' team?",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "What is the next match date for men team?",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "What is the next match date for under 18 team?",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "What is the next match date for women's team?",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "What is the next match date for men's team?",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Tell me the matches for the young team team.",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "Tell me the matches for the female team.",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Tell me the matches for the young team team.",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "Tell me the matches for the junior team.",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "Tell me the matches for the women's team.",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Give me all match dates for the junior team.",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "Give me all match dates for the women's team.",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Give me all match dates for the women's team.",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Give me all match dates for the female team.",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Give me all match dates for the girls' team.",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Who will the girls' team play against next?",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Who will the male team play against next?",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Who will the mens team play against next?",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Who will the under 18 team play against next?",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "Who will the under 18 team play against next?",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "Provide the fixtures for the men team.",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Provide the fixtures for the ladies team.",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Provide the fixtures for the male team.",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Provide the fixtures for the mens team.",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Provide the fixtures for the mens team.",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "When is the next men's team match?",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "When is the next junior team match?",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "When is the next young team team match?",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "When is the next ladies team match?",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "When is the next young team team match?",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "Upcoming games of the female team please.",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Upcoming games of the women's team please.",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Upcoming games of the junior team please.",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "Upcoming games of the young team team please.",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "Upcoming games of the under 18 team please.",
+        "ground_truth": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "I want to read news about the young team team.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "I want to read news about the women's team.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "I want to read news about the mens team.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "I want to read news about the male team.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "I want to read news about the mens team.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Show me the latest updates on the ladies team.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Show me the latest updates on the young team team.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "Show me the latest updates on the girls' team.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Show me the latest updates on the ladies team.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Show me the latest updates on the ladies team.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Give me the recent news for the ladies team.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Give me the recent news for the male team.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Give me the recent news for the male team.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Give me the recent news for the girls' team.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Give me the recent news for the women's team.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Tell me what happened with the women's team.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Tell me what happened with the men team.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Tell me what happened with the men team.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Tell me what happened with the male team.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Tell me what happened with the female team.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "What's new about the ladies team?",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "What's new about the girls' team?",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "What's new about the young team team?",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "What's new about the men's team?",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "What's new about the female team?",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Give me news of the men team.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Give me news of the men team.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Give me news of the male team.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Give me news of the women's team.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Give me news of the under 18 team.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "Latest information about the youth team please.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "Latest information about the girls' team please.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Latest information about the junior team please.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "Latest information about the girls' team please.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Latest information about the young team team please.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "Show female team headlines.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Show young team team headlines.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "Show men team headlines.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Show men team headlines.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Show junior team headlines.",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "What's the latest on men's team?",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "What's the latest on ladies team?",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "What's the latest on girls' team?",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "What's the latest on ladies team?",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "What's the latest on youth team?",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "Anything new for the youth team?",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "Anything new for the men team?",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Anything new for the male team?",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Anything new for the women's team?",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Anything new for the men team?",
+        "ground_truth": {
+            "intent": "get_news",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Show me the last results for the men team.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Show me the last results for the women's team.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Show me the last results for the men's team.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Show me the last results for the men team.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Show me the last results for the junior team.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "Who won the last match of the female team?",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Who won the last match of the men's team?",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Who won the last match of the youth team?",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "Who won the last match of the men's team?",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Who won the last match of the young team team?",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "Tell me the recent scores for the ladies team.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Tell me the recent scores for the men team.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Tell me the recent scores for the girls' team.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Tell me the recent scores for the ladies team.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Tell me the recent scores for the male team.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "What was the score in the mens team's last match?",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "What was the score in the male team's last match?",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "What was the score in the female team's last match?",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "What was the score in the women's team's last match?",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "What was the score in the junior team's last match?",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "Results of the girls' team, please.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Results of the women's team, please.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Results of the ladies team, please.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Results of the girls' team, please.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Results of the men's team, please.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "List all recent results of the youth team.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "List all recent results of the girls' team.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "List all recent results of the young team team.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "List all recent results of the mens team.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "List all recent results of the young team team.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "Give me the mens team's previous scores.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Give me the ladies team's previous scores.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Give me the men's team's previous scores.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Give me the under 18 team's previous scores.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "Give me the under 18 team's previous scores.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "Who did the men team play last, and what was the result?",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Who did the youth team play last, and what was the result?",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "Who did the male team play last, and what was the result?",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Who did the girls' team play last, and what was the result?",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Who did the youth team play last, and what was the result?",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "Last match score for the male team.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Last match score for the men's team.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Last match score for the mens team.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "male"
+            }
+        }
+    },
+    {
+        "user_input": "Last match score for the youth team.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "Last match score for the junior team.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "Share the under 18 team's latest results.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "Share the female team's latest results.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Share the girls' team's latest results.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "Share the youth team's latest results.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "youth"
+            }
+        }
+    },
+    {
+        "user_input": "Share the ladies team's latest results.",
+        "ground_truth": {
+            "intent": "get_results",
+            "slots": {
+                "team": "female"
+            }
+        }
+    },
+    {
+        "user_input": "What's the weather like in Rome?",
+        "ground_truth": {
+            "intent": "out_of_domain",
+            "slots": {}
+        }
+    },
+    {
+        "user_input": "Play some jazz music.",
+        "ground_truth": {
+            "intent": "out_of_domain",
+            "slots": {}
+        }
+    },
+    {
+        "user_input": "Set an alarm for 7 am tomorrow.",
+        "ground_truth": {
+            "intent": "out_of_domain",
+            "slots": {}
+        }
+    },
+    {
+        "user_input": "Translate 'hello' into Spanish.",
+        "ground_truth": {
+            "intent": "out_of_domain",
+            "slots": {}
+        }
+    },
+    {
+        "user_input": "What's the capital of Canada?",
+        "ground_truth": {
+            "intent": "out_of_domain",
+            "slots": {}
+        }
+    },
+    {
+        "user_input": "How many calories are in an apple?",
+        "ground_truth": {
+            "intent": "out_of_domain",
+            "slots": {}
+        }
+    },
+    {
+        "user_input": "Open the calculator app.",
+        "ground_truth": {
+            "intent": "out_of_domain",
+            "slots": {}
+        }
+    },
+    {
+        "user_input": "Tell me a joke.",
+        "ground_truth": {
+            "intent": "out_of_domain",
+            "slots": {}
+        }
+    },
+    {
+        "user_input": "What's 25 times 4?",
+        "ground_truth": {
+            "intent": "out_of_domain",
+            "slots": {}
+        }
+    },
+    {
+        "user_input": "Who won the Oscar for Best Actor in 2020?",
+        "ground_truth": {
+            "intent": "out_of_domain",
+            "slots": {}
+        }
+    },
+    {
+        "user_input": "Book me a hotel in Paris.",
+        "ground_truth": {
+            "intent": "out_of_domain",
+            "slots": {}
+        }
+    },
+    {
+        "user_input": "Find me a good Italian restaurant nearby.",
+        "ground_truth": {
+            "intent": "out_of_domain",
+            "slots": {}
+        }
+    },
+    {
+        "user_input": "Convert 100 USD to euros.",
+        "ground_truth": {
+            "intent": "out_of_domain",
+            "slots": {}
+        }
+    },
+    {
+        "user_input": "Remind me to buy milk at 5 pm.",
+        "ground_truth": {
+            "intent": "out_of_domain",
+            "slots": {}
+        }
+    },
+    {
+        "user_input": "What's the stock price of Apple?",
+        "ground_truth": {
+            "intent": "out_of_domain",
+            "slots": {}
+        }
+    },
+    {
+        "user_input": "Turn off the living room lights.",
+        "ground_truth": {
+            "intent": "out_of_domain",
+            "slots": {}
+        }
+    },
+    {
+        "user_input": "What's the meaning of life?",
+        "ground_truth": {
+            "intent": "out_of_domain",
+            "slots": {}
+        }
+    },
+    {
+        "user_input": "Send an email to John.",
+        "ground_truth": {
+            "intent": "out_of_domain",
+            "slots": {}
+        }
+    },
+    {
+        "user_input": "Read me today's news headlines.",
+        "ground_truth": {
+            "intent": "out_of_domain",
+            "slots": {}
+        }
+    },
+    {
+        "user_input": "How far is the moon from Earth?",
+        "ground_truth": {
+            "intent": "out_of_domain",
+            "slots": {}
+        }
+    }
+]

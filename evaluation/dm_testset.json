@@ -1,0 +1,2778 @@
+[
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "male",
+                "sector": "best",
+                "season_ticket": false,
+                "reduced_price": false,
+                "number_of_tickets": 2,
+                "date": "2025-10-15"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_tickets)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "male",
+                "sector": "curve",
+                "season_ticket": true,
+                "reduced_price": false,
+                "number_of_tickets": 1,
+                "date": "season"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_tickets)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "female",
+                "sector": "grandstand",
+                "season_ticket": true,
+                "reduced_price": true,
+                "number_of_tickets": 3,
+                "date": "season"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_tickets)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "youth",
+                "sector": "vip",
+                "season_ticket": true,
+                "reduced_price": false,
+                "number_of_tickets": 2,
+                "date": "season"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_tickets)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": null,
+                "sector": "vip",
+                "season_ticket": false,
+                "reduced_price": null,
+                "number_of_tickets": 2,
+                "date": "2025-09-01"
+            }
+        },
+        "ground_truth": [
+            "request_info(team)",
+            "request_info(reduced_price)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "male",
+                "sector": "curve",
+                "season_ticket": true,
+                "reduced_price": false,
+                "number_of_tickets": null,
+                "date": "season"
+            }
+        },
+        "ground_truth": [
+            "request_info(number_of_tickets)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "youth",
+                "sector": "vip",
+                "season_ticket": true,
+                "reduced_price": true,
+                "number_of_tickets": 3,
+                "date": "season"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_tickets)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "female",
+                "sector": "curve",
+                "season_ticket": true,
+                "reduced_price": true,
+                "number_of_tickets": 3,
+                "date": "season"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_tickets)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "male",
+                "sector": "grandstand",
+                "season_ticket": true,
+                "reduced_price": true,
+                "number_of_tickets": 3,
+                "date": "season"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_tickets)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "youth",
+                "sector": "grandstand",
+                "season_ticket": false,
+                "reduced_price": false,
+                "number_of_tickets": 2,
+                "date": "2025-10-15"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_tickets)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "female",
+                "sector": "grandstand",
+                "season_ticket": false,
+                "reduced_price": false,
+                "number_of_tickets": 1,
+                "date": "2025-10-15"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_tickets)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "male",
+                "sector": "vip",
+                "season_ticket": false,
+                "reduced_price": null,
+                "number_of_tickets": 1,
+                "date": "2025-10-15"
+            }
+        },
+        "ground_truth": [
+            "request_info(reduced_price)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "male",
+                "sector": "curve",
+                "season_ticket": true,
+                "reduced_price": false,
+                "number_of_tickets": 1,
+                "date": "season"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_tickets)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "youth",
+                "sector": "grandstand",
+                "season_ticket": false,
+                "reduced_price": true,
+                "number_of_tickets": null,
+                "date": null
+            }
+        },
+        "ground_truth": [
+            "request_info(number_of_tickets)",
+            "request_info(date)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "youth",
+                "sector": "vip",
+                "season_ticket": true,
+                "reduced_price": true,
+                "number_of_tickets": 1,
+                "date": "season"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_tickets)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "female",
+                "sector": null,
+                "season_ticket": true,
+                "reduced_price": false,
+                "number_of_tickets": 1,
+                "date": "season"
+            }
+        },
+        "ground_truth": [
+            "request_info(sector)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": null,
+                "sector": "vip",
+                "season_ticket": null,
+                "reduced_price": false,
+                "number_of_tickets": 1,
+                "date": "2025-09-01"
+            }
+        },
+        "ground_truth": [
+            "request_info(team)",
+            "request_info(season_ticket)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "male",
+                "sector": "best",
+                "season_ticket": null,
+                "reduced_price": false,
+                "number_of_tickets": 3,
+                "date": "2025-09-01"
+            }
+        },
+        "ground_truth": [
+            "request_info(season_ticket)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "male",
+                "sector": null,
+                "season_ticket": true,
+                "reduced_price": false,
+                "number_of_tickets": null,
+                "date": "season"
+            }
+        },
+        "ground_truth": [
+            "request_info(sector)",
+            "request_info(number_of_tickets)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "youth",
+                "sector": "best",
+                "season_ticket": null,
+                "reduced_price": false,
+                "number_of_tickets": 1,
+                "date": "2025-09-01"
+            }
+        },
+        "ground_truth": [
+            "request_info(season_ticket)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "youth",
+                "sector": "grandstand",
+                "season_ticket": true,
+                "reduced_price": false,
+                "number_of_tickets": null,
+                "date": "season"
+            }
+        },
+        "ground_truth": [
+            "request_info(number_of_tickets)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "male",
+                "sector": "curve",
+                "season_ticket": null,
+                "reduced_price": true,
+                "number_of_tickets": 1,
+                "date": null
+            }
+        },
+        "ground_truth": [
+            "request_info(season_ticket)",
+            "request_info(date)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "youth",
+                "sector": "vip",
+                "season_ticket": true,
+                "reduced_price": null,
+                "number_of_tickets": 3,
+                "date": "season"
+            }
+        },
+        "ground_truth": [
+            "request_info(reduced_price)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": null,
+                "sector": "best",
+                "season_ticket": true,
+                "reduced_price": true,
+                "number_of_tickets": 3,
+                "date": "season"
+            }
+        },
+        "ground_truth": [
+            "request_info(team)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "male",
+                "sector": null,
+                "season_ticket": true,
+                "reduced_price": true,
+                "number_of_tickets": 1,
+                "date": "season"
+            }
+        },
+        "ground_truth": [
+            "request_info(sector)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "male",
+                "sector": "vip",
+                "season_ticket": false,
+                "reduced_price": null,
+                "number_of_tickets": 2,
+                "date": "2025-10-15"
+            }
+        },
+        "ground_truth": [
+            "request_info(reduced_price)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "male",
+                "sector": "vip",
+                "season_ticket": true,
+                "reduced_price": false,
+                "number_of_tickets": 2,
+                "date": "season"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_tickets)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "youth",
+                "sector": "grandstand",
+                "season_ticket": null,
+                "reduced_price": false,
+                "number_of_tickets": 3,
+                "date": null
+            }
+        },
+        "ground_truth": [
+            "request_info(season_ticket)",
+            "request_info(date)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "youth",
+                "sector": "curve",
+                "season_ticket": false,
+                "reduced_price": true,
+                "number_of_tickets": 3,
+                "date": "season"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_tickets)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "male",
+                "sector": "vip",
+                "season_ticket": false,
+                "reduced_price": true,
+                "number_of_tickets": null,
+                "date": "2025-09-01"
+            }
+        },
+        "ground_truth": [
+            "request_info(number_of_tickets)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "male",
+                "sector": "curve",
+                "season_ticket": true,
+                "reduced_price": true,
+                "number_of_tickets": 2,
+                "date": "season"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_tickets)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "female",
+                "sector": "curve",
+                "season_ticket": false,
+                "reduced_price": null,
+                "number_of_tickets": 3,
+                "date": null
+            }
+        },
+        "ground_truth": [
+            "request_info(reduced_price)",
+            "request_info(date)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "youth",
+                "sector": "grandstand",
+                "season_ticket": false,
+                "reduced_price": true,
+                "number_of_tickets": 2,
+                "date": "season"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_tickets)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "youth",
+                "sector": "vip",
+                "season_ticket": true,
+                "reduced_price": false,
+                "number_of_tickets": 1,
+                "date": "season"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_tickets)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "youth",
+                "sector": null,
+                "season_ticket": true,
+                "reduced_price": true,
+                "number_of_tickets": 3,
+                "date": "season"
+            }
+        },
+        "ground_truth": [
+            "request_info(sector)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "youth",
+                "sector": "vip",
+                "season_ticket": true,
+                "reduced_price": null,
+                "number_of_tickets": 2,
+                "date": "season"
+            }
+        },
+        "ground_truth": [
+            "request_info(reduced_price)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": null,
+                "sector": "vip",
+                "season_ticket": true,
+                "reduced_price": true,
+                "number_of_tickets": 3,
+                "date": "season"
+            }
+        },
+        "ground_truth": [
+            "request_info(team)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "male",
+                "sector": null,
+                "season_ticket": true,
+                "reduced_price": true,
+                "number_of_tickets": 2,
+                "date": "season"
+            }
+        },
+        "ground_truth": [
+            "request_info(sector)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "youth",
+                "sector": null,
+                "season_ticket": null,
+                "reduced_price": false,
+                "number_of_tickets": 3,
+                "date": "2025-10-15"
+            }
+        },
+        "ground_truth": [
+            "request_info(sector)",
+            "request_info(season_ticket)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_tickets",
+            "slots": {
+                "team": "female",
+                "sector": "vip",
+                "season_ticket": false,
+                "reduced_price": null,
+                "number_of_tickets": 3,
+                "date": "2025-09-01"
+            }
+        },
+        "ground_truth": [
+            "request_info(reduced_price)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "female",
+                "item": "shirt",
+                "size": "XL",
+                "quantity": 3,
+                "delivery_address": "Corso Vittorio Emanuele 45, Torino"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_merchandise)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "scarf",
+                "size": "unique",
+                "quantity": 1,
+                "delivery_address": "Corso Vittorio Emanuele 45, Torino"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_merchandise)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "youth",
+                "item": "ball",
+                "size": "unique",
+                "quantity": 3,
+                "delivery_address": "Corso Vittorio Emanuele 45, Torino"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_merchandise)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "youth",
+                "item": "scarf",
+                "size": "unique",
+                "quantity": 3,
+                "delivery_address": "Corso Vittorio Emanuele 45, Torino"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_merchandise)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": null,
+                "item": "shirt",
+                "size": "S",
+                "quantity": 3,
+                "delivery_address": "Corso Vittorio Emanuele 45, Torino"
+            }
+        },
+        "ground_truth": [
+            "request_info(team)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "hat",
+                "size": "unique",
+                "quantity": 3,
+                "delivery_address": "Piazza Duomo 1, Firenze"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_merchandise)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "youth",
+                "item": "scarf",
+                "size": "unique",
+                "quantity": 2,
+                "delivery_address": null
+            }
+        },
+        "ground_truth": [
+            "request_info(delivery_address)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "hat",
+                "size": "unique",
+                "quantity": 2,
+                "delivery_address": "Via Roma 12, Milano"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_merchandise)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "scarf",
+                "size": "unique",
+                "quantity": 2,
+                "delivery_address": "Corso Vittorio Emanuele 45, Torino"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_merchandise)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": null,
+                "size": "unique",
+                "quantity": 2,
+                "delivery_address": "Via Roma 12, Milano"
+            }
+        },
+        "ground_truth": [
+            "request_info(item)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "shirt",
+                "size": "L",
+                "quantity": 2,
+                "delivery_address": "Corso Vittorio Emanuele 45, Torino"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_merchandise)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "female",
+                "item": "hat",
+                "size": "unique",
+                "quantity": 2,
+                "delivery_address": "Corso Vittorio Emanuele 45, Torino"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_merchandise)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "shirt",
+                "size": "S",
+                "quantity": 3,
+                "delivery_address": null
+            }
+        },
+        "ground_truth": [
+            "request_info(delivery_address)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": null,
+                "item": "scarf",
+                "size": "unique",
+                "quantity": 2,
+                "delivery_address": "Piazza Duomo 1, Firenze"
+            }
+        },
+        "ground_truth": [
+            "request_info(team)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "hat",
+                "size": "unique",
+                "quantity": 2,
+                "delivery_address": "Piazza Duomo 1, Firenze"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_merchandise)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": null,
+                "size": "unique",
+                "quantity": 2,
+                "delivery_address": "Piazza Duomo 1, Firenze"
+            }
+        },
+        "ground_truth": [
+            "request_info(item)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": null,
+                "item": "scarf",
+                "size": "unique",
+                "quantity": 3,
+                "delivery_address": "Piazza Duomo 1, Firenze"
+            }
+        },
+        "ground_truth": [
+            "request_info(team)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "youth",
+                "item": "shirt",
+                "size": "unique",
+                "quantity": null,
+                "delivery_address": null
+            }
+        },
+        "ground_truth": [
+            "request_info(quantity)",
+            "request_info(delivery_address)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "youth",
+                "item": "shirt",
+                "size": "unique",
+                "quantity": 1,
+                "delivery_address": "Via Roma 12, Milano"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_merchandise)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "shirt",
+                "size": "unique",
+                "quantity": 2,
+                "delivery_address": "Via Roma 12, Milano"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_merchandise)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "youth",
+                "item": "hat",
+                "size": "unique",
+                "quantity": 1,
+                "delivery_address": "Corso Vittorio Emanuele 45, Torino"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_merchandise)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "youth",
+                "item": null,
+                "size": "unique",
+                "quantity": 3,
+                "delivery_address": "Piazza Duomo 1, Firenze"
+            }
+        },
+        "ground_truth": [
+            "request_info(item)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "youth",
+                "item": "ball",
+                "size": "unique",
+                "quantity": 3,
+                "delivery_address": "Via Roma 12, Milano"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_merchandise)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "scarf",
+                "size": "unique",
+                "quantity": 1,
+                "delivery_address": null
+            }
+        },
+        "ground_truth": [
+            "request_info(delivery_address)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "female",
+                "item": "shirt",
+                "size": "XL",
+                "quantity": 1,
+                "delivery_address": "Corso Vittorio Emanuele 45, Torino"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_merchandise)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "youth",
+                "item": "shirt",
+                "size": "M",
+                "quantity": 2,
+                "delivery_address": "Piazza Duomo 1, Firenze"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_merchandise)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "youth",
+                "item": "hat",
+                "size": "unique",
+                "quantity": 1,
+                "delivery_address": "Piazza Duomo 1, Firenze"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_merchandise)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": null,
+                "item": null,
+                "size": "unique",
+                "quantity": 1,
+                "delivery_address": "Corso Vittorio Emanuele 45, Torino"
+            }
+        },
+        "ground_truth": [
+            "request_info(team)",
+            "request_info(item)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": null,
+                "item": null,
+                "size": "unique",
+                "quantity": 3,
+                "delivery_address": "Corso Vittorio Emanuele 45, Torino"
+            }
+        },
+        "ground_truth": [
+            "request_info(team)",
+            "request_info(item)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "youth",
+                "item": "ball",
+                "size": "unique",
+                "quantity": 3,
+                "delivery_address": "Piazza Duomo 1, Firenze"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_merchandise)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "female",
+                "item": "scarf",
+                "size": "unique",
+                "quantity": 3,
+                "delivery_address": null
+            }
+        },
+        "ground_truth": [
+            "request_info(delivery_address)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": null,
+                "item": "ball",
+                "size": "unique",
+                "quantity": null,
+                "delivery_address": "Piazza Duomo 1, Firenze"
+            }
+        },
+        "ground_truth": [
+            "request_info(team)",
+            "request_info(quantity)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "female",
+                "item": "ball",
+                "size": "unique",
+                "quantity": 1,
+                "delivery_address": "Corso Vittorio Emanuele 45, Torino"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_merchandise)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": null,
+                "item": "hat",
+                "size": "unique",
+                "quantity": 2,
+                "delivery_address": "Via Roma 12, Milano"
+            }
+        },
+        "ground_truth": [
+            "request_info(team)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "hat",
+                "size": "unique",
+                "quantity": 3,
+                "delivery_address": "Via Roma 12, Milano"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_merchandise)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "youth",
+                "item": "hat",
+                "size": "unique",
+                "quantity": 1,
+                "delivery_address": "Via Roma 12, Milano"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_merchandise)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "male",
+                "item": "scarf",
+                "size": "unique",
+                "quantity": 3,
+                "delivery_address": "Corso Vittorio Emanuele 45, Torino"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_merchandise)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "youth",
+                "item": null,
+                "size": "unique",
+                "quantity": 2,
+                "delivery_address": "Piazza Duomo 1, Firenze"
+            }
+        },
+        "ground_truth": [
+            "request_info(item)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": "female",
+                "item": "ball",
+                "size": "unique",
+                "quantity": 1,
+                "delivery_address": "Via Roma 12, Milano"
+            }
+        },
+        "ground_truth": [
+            "confirmation(buy_merchandise)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "buy_merchandise",
+            "slots": {
+                "team": null,
+                "item": "shirt",
+                "size": "XL",
+                "quantity": 2,
+                "delivery_address": "Via Roma 12, Milano"
+            }
+        },
+        "ground_truth": [
+            "request_info(team)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": null
+            }
+        },
+        "ground_truth": [
+            "request_info(team)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": null
+            }
+        },
+        "ground_truth": [
+            "request_info(team)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": null
+            }
+        },
+        "ground_truth": [
+            "request_info(team)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": null
+            }
+        },
+        "ground_truth": [
+            "request_info(team)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": null
+            }
+        },
+        "ground_truth": [
+            "request_info(team)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "matches_schedule",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(matches_schedule)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": null
+            }
+        },
+        "ground_truth": [
+            "request_info(team)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": null
+            }
+        },
+        "ground_truth": [
+            "request_info(team)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": null
+            }
+        },
+        "ground_truth": [
+            "request_info(team)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": null
+            }
+        },
+        "ground_truth": [
+            "request_info(team)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_news",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_news)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_results)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_results)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": null
+            }
+        },
+        "ground_truth": [
+            "request_info(team)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_results)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_results)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_results)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_results)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_results)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_results)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": null
+            }
+        },
+        "ground_truth": [
+            "request_info(team)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": null
+            }
+        },
+        "ground_truth": [
+            "request_info(team)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": null
+            }
+        },
+        "ground_truth": [
+            "request_info(team)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_results)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_results)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_results)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_results)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_results)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_results)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_results)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": null
+            }
+        },
+        "ground_truth": [
+            "request_info(team)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": null
+            }
+        },
+        "ground_truth": [
+            "request_info(team)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_results)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_results)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_results)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_results)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_results)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_results)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_results)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_results)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": null
+            }
+        },
+        "ground_truth": [
+            "request_info(team)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_results)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_results)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": null
+            }
+        },
+        "ground_truth": [
+            "request_info(team)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_results)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_results)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_results)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_results)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_results)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": null
+            }
+        },
+        "ground_truth": [
+            "request_info(team)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "get_results",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "confirmation(get_results)"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "out_of_domain",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "fallback_policy"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "out_of_domain",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "fallback_policy"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "out_of_domain",
+            "slots": {}
+        },
+        "ground_truth": [
+            "fallback_policy"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "out_of_domain",
+            "slots": {
+                "team": "male"
+            }
+        },
+        "ground_truth": [
+            "fallback_policy"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "out_of_domain",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "fallback_policy"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "out_of_domain",
+            "slots": {}
+        },
+        "ground_truth": [
+            "fallback_policy"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "out_of_domain",
+            "slots": {}
+        },
+        "ground_truth": [
+            "fallback_policy"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "out_of_domain",
+            "slots": {
+                "team": "female"
+            }
+        },
+        "ground_truth": [
+            "fallback_policy"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "out_of_domain",
+            "slots": {}
+        },
+        "ground_truth": [
+            "fallback_policy"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "out_of_domain",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "fallback_policy"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "out_of_domain",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "fallback_policy"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "out_of_domain",
+            "slots": {}
+        },
+        "ground_truth": [
+            "fallback_policy"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "out_of_domain",
+            "slots": {}
+        },
+        "ground_truth": [
+            "fallback_policy"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "out_of_domain",
+            "slots": {}
+        },
+        "ground_truth": [
+            "fallback_policy"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "out_of_domain",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "fallback_policy"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "out_of_domain",
+            "slots": {}
+        },
+        "ground_truth": [
+            "fallback_policy"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "out_of_domain",
+            "slots": {
+                "team": null,
+                "item": null,
+                "size": "S",
+                "quantity": 2,
+                "delivery_address": null
+            }
+        },
+        "ground_truth": [
+            "fallback_policy"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "out_of_domain",
+            "slots": {}
+        },
+        "ground_truth": [
+            "fallback_policy"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "out_of_domain",
+            "slots": {}
+        },
+        "ground_truth": [
+            "fallback_policy"
+        ]
+    },
+    {
+        "dialogue_state": {
+            "intent": "out_of_domain",
+            "slots": {
+                "team": "youth"
+            }
+        },
+        "ground_truth": [
+            "fallback_policy"
+        ]
+    }
+]
